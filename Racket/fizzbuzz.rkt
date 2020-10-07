@@ -1,13 +1,1 @@
-;fizzbuzz in racket
-;Author: Emblazion
-
-#lang racket
-(for ([i (in-range 1 101)])
-  (cond
-    [(and
-      (equal? 0 (modulo i 3))
-      (equal? 0 (modulo i 5)))
-     (printf "FizzBuzz\n")]
-    [(equal? 0 (modulo i 3)) (printf "Fizz\n")]
-    [(equal? 0 (modulo i 5)) (printf "Buzz\n")]
-    [else (printf "~a\n" i)]))
+;fuck racket its a shitty ass language and why do i need to learn it when i already know java and c++ what the fuuuuuuuuuuuu
